@@ -1,0 +1,17 @@
+# Power Definitions
+
+[power]
+id=1
+name=Swing
+type=fixed
+icon=1
+description=Basic melee attack
+new_state=swing
+face=true
+use_hazard=true
+aim_assist=true
+base_damage=melee
+lifespan=1
+radius=1.0
+starting_pos=melee
+allow_power_mod=true

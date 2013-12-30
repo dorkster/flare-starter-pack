@@ -1,0 +1,7 @@
+# option=base,head,portrait,name
+# base is the folder in /images/avatar
+# head is the png in /images/avatar/[base]
+# portrait is the png in /images/portraits
+# name is the default name on character creation
+
+option=male,head_default,male01,Player

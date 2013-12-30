@@ -1,0 +1,6 @@
+# Potions #############################
+
+[item]
+id=1
+name=Dummy item
+icon=0
