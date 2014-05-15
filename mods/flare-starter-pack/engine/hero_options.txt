@@ -5,3 +5,13 @@
 # name is the default name on character creation
 
 option=male,head_default,male01,Player
+
+# layers
+layer=0,body
+layer=1,body
+layer=2,body
+layer=3,body
+layer=4,body
+layer=5,body
+layer=6,body
+layer=7,body

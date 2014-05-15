@@ -22,5 +22,5 @@ carried_area=64,160
 carried_cols=6
 carried_rows=6
 
-label_title=160,8,center,top
+caption=160,8,center,top
 currency=160,128,center,top
