@@ -6,6 +6,8 @@
 # Mental + Defense grants healing and magical protection
 
 [header]
+pos=0,-32,320,416
+align=right
 label_title=160,8,center,top
 close=294,2
 unspent_points=160,396,center,top

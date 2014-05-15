@@ -2,6 +2,9 @@
 # the first two values are x,y positions
 # some items have two more values, width and height
 
+pos=0,-32,320,416
+align=right
+
 close=294,2
 help=2,2,24,24
 
