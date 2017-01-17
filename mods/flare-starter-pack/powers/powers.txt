@@ -2,16 +2,33 @@
 
 [power]
 id=1
-name=Swing
-type=fixed
-icon=1
-description=Basic melee attack
-new_state=swing
+name=Basic Attack
+type=missile
+icon=0
+description=Fires a projectile.
+new_state=instant
 face=true
 use_hazard=true
-aim_assist=true
-base_damage=melee
-lifespan=1
+aim_assist=false
+base_damage=ranged
+lifespan=1s
+speed=12
 radius=1.0
 starting_pos=melee
-allow_power_mod=true
+animation=animations/powers/shot.txt
+directional=false
+cooldown=1s
+requires_flags=weapon
+
+[power]
+id=2
+#name=Slime Attack
+type=fixed
+new_state=instant
+use_hazard=true
+base_damage=melee
+lifespan=33ms
+radius=1.25
+starting_pos=source
+cooldown=1s
+post_effect=knockback,20,150ms

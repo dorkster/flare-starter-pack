@@ -1,0 +1,4 @@
+APPEND
+
+save_prefix=default
+sell_without_vendor=false

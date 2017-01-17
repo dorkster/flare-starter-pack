@@ -5,5 +5,7 @@ img=images/tilesets/tileset_default.png
 # tileset
 tile=16,0,0,32,32,16,16
 tile=17,32,0,32,32,16,16
+tile=18,64,0,32,32,16,16
+tile=19,96,0,32,32,16,16
 
 

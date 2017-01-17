@@ -1,2 +1,2 @@
-pos=32,-40,224,416
+pos=32,-64,224,416
 align=bottomleft

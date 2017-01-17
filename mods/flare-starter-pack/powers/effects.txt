@@ -1,0 +1,5 @@
+[effect]
+id=knockback
+type=knockback
+can_stack=false
+

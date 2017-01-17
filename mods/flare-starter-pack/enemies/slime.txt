@@ -1,0 +1,26 @@
+name=Slime
+level=1
+categories=slime
+rarity=common
+xp=0
+
+animations=animations/enemies/slime.txt
+
+loot=currency,100,10,25
+
+# combat stats
+stat=hp,1
+speed=2
+melee_range=1
+threat_range=16
+turn_delay=400ms
+chance_pursue=5
+power=melee,2,100
+cooldown_hit=133ms
+
+stat=accuracy,100
+stat=avoidance,0
+
+stat=dmg_melee_min,5
+stat=dmg_melee_max,5
+cooldown=1s

@@ -1,0 +1,2 @@
+description=Basic example game data
+game=default

@@ -1,0 +1,10 @@
+image=images/powers/shot.png
+
+render_size=16,16
+render_offset=8,8
+
+[power]
+position=0
+frames=1
+duration=33ms
+type=back_forth

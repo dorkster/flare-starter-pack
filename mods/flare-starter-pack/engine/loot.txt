@@ -1,11 +1,7 @@
 # Loot settings
 
 # Sound effects
-sfx_loot=soundfx/flying_loot.ogg
-
-# Animation
-loot_animation=0,0,64,128
-loot_animation_offset=32,112
+#sfx_loot=soundfx/flying_loot.ogg
 
 # Tooltip
 tooltip_margin=32
@@ -18,3 +14,6 @@ autopickup_currency=1
 currency_name=Gold
 vendor_ratio=25
 
+# Drops
+drop_max=1
+drop_radius=1

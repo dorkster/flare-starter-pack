@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="16" height="16" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="32" tileheight="32" nextobjectid="6">
  <properties>
+  <property name="hero_pos" value="4,4"/>
   <property name="tileset" value="tilesetdefs/tileset_default.txt"/>
   <property name="title" value="Example Map"/>
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32" tilecount="15" columns="15">
   <image source="tiled_collision.png" width="480" height="32"/>
  </tileset>
- <tileset firstgid="16" name="tileset" tilewidth="32" tileheight="32">
-  <image source="tileset.png" width="64" height="32"/>
+ <tileset firstgid="16" name="tileset" tilewidth="32" tileheight="32" tilecount="4" columns="4">
+  <image source="tileset.png" width="128" height="32"/>
  </tileset>
  <layer name="background" width="16" height="16">
   <data encoding="csv">
 17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,
-17,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,
-17,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,
-17,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,
-17,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,
-17,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,
-17,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,
-17,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,
-17,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,
-17,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,
-17,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,
-17,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,
-17,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,
-17,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,
-17,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,
+17,18,18,18,18,18,18,18,18,18,18,18,18,18,18,17,
+17,18,16,16,16,16,16,16,16,16,16,16,16,16,18,17,
+17,18,16,16,16,16,16,16,16,16,16,16,16,16,18,17,
+17,18,16,16,16,16,16,16,16,16,16,16,16,16,18,17,
+17,18,16,16,16,16,16,16,16,16,16,16,16,16,18,17,
+17,18,16,16,16,16,16,16,16,16,16,16,16,16,18,17,
+17,18,16,16,16,16,16,16,16,16,16,16,16,16,18,17,
+17,18,18,18,18,18,18,18,18,16,16,16,16,16,18,17,
+17,17,17,17,17,17,17,17,18,16,16,16,16,16,18,17,
+17,18,18,18,18,18,18,18,18,16,16,16,16,16,18,17,
+17,18,16,16,16,16,16,16,16,16,16,16,16,16,18,17,
+17,18,16,16,16,16,16,16,16,16,16,16,16,16,18,17,
+17,18,16,16,16,16,16,16,16,16,16,16,16,16,18,17,
+17,18,18,18,18,18,18,18,18,18,18,18,18,18,18,17,
 17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17
 </data>
  </layer>
@@ -34,7 +35,7 @@
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,19,0,19,0,19,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -54,15 +55,15 @@
   <data encoding="csv">
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+1,2,0,0,0,0,0,0,0,4,0,4,0,4,2,1,
 1,2,0,0,0,0,0,0,0,0,0,0,0,0,2,1,
 1,2,0,0,0,0,0,0,0,0,0,0,0,0,2,1,
 1,2,0,0,0,0,0,0,0,0,0,0,0,0,2,1,
 1,2,0,0,0,0,0,0,0,0,0,0,0,0,2,1,
 1,2,0,0,0,0,0,0,0,0,0,0,0,0,2,1,
-1,2,0,0,0,0,0,0,0,0,0,0,0,0,2,1,
-1,2,0,0,0,0,0,0,0,0,0,0,0,0,2,1,
-1,2,0,0,0,0,0,0,0,0,0,0,0,0,2,1,
-1,2,0,0,0,0,0,0,0,0,0,0,0,0,2,1,
+1,2,2,2,2,2,2,2,2,0,0,0,0,0,2,1,
+1,1,1,1,1,1,1,1,2,0,0,0,0,0,2,1,
+1,2,2,2,2,2,2,2,2,0,0,0,0,0,2,1,
 1,2,0,0,0,0,0,0,0,0,0,0,0,0,2,1,
 1,2,0,0,0,0,0,0,0,0,0,0,0,0,2,1,
 1,2,0,0,0,0,0,0,0,0,0,0,0,0,2,1,
@@ -70,4 +71,50 @@
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 </data>
  </layer>
+ <objectgroup name="enemy">
+  <object id="1" type="enemy" x="96" y="384" width="32" height="32">
+   <properties>
+    <property name="category" value="slime"/>
+    <property name="level" value="1"/>
+    <property name="number" value="1"/>
+    <property name="wander_radius" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="event">
+  <object id="2" type="event" x="352" y="64" width="32" height="32">
+   <properties>
+    <property name="activate" value="on_trigger"/>
+    <property name="hotspot" value="location"/>
+    <property name="requires_not_item" value="2"/>
+    <property name="reward_item" value="2"/>
+    <property name="tooltip" value="Restore Weapon"/>
+   </properties>
+  </object>
+  <object id="3" type="event" x="352" y="0" width="32" height="32">
+   <properties>
+    <property name="activate" value="on_trigger"/>
+    <property name="hotspot" value="11,2,1,1"/>
+    <property name="msg" value="You already have a weapon."/>
+    <property name="requires_item" value="2"/>
+    <property name="tooltip" value="Restore Weapon"/>
+   </properties>
+  </object>
+  <object id="4" type="event" x="416" y="64" width="32" height="32">
+   <properties>
+    <property name="activate" value="on_trigger"/>
+    <property name="hotspot" value="location"/>
+    <property name="intermap" value="maps/starting_room.txt"/>
+    <property name="tooltip" value="Restart Level"/>
+   </properties>
+  </object>
+  <object id="5" type="event" x="288" y="64" width="32" height="32">
+   <properties>
+    <property name="activate" value="on_trigger"/>
+    <property name="hotspot" value="location"/>
+    <property name="restore" value="hpmp"/>
+    <property name="tooltip" value="Restore HP/MP"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

@@ -2,5 +2,19 @@
 
 [item]
 id=1
-name=Dummy item
+name=Gold
 icon=0
+quality=currency
+price=1
+price_sell=1
+max_quantity=50000
+
+[item]
+id=2
+name=Example Weapon
+icon=0
+quality=normal
+level=1
+price=100
+item_type=weapon
+equip_flags=weapon

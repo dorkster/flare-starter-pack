@@ -1,0 +1,4 @@
+[power]
+id=1
+position=48,80
+requires_primary=physical,1
