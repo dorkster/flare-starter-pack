@@ -1,0 +1,6 @@
+[class]
+name=Adventurer
+description=A basic class.
+equipment=2
+powers=1
+actionbar=0,0,0,0,0,0,0,0,0,0,1,0
