@@ -4,4 +4,4 @@
 # portrait is the png in /images/portraits
 # name is the default name on character creation
 
-option=robot,head_default,images/portraits/default.png,Player
+option=0,robot,head_default,images/portraits/default.png,Player
